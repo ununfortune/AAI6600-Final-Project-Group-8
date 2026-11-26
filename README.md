@@ -47,3 +47,12 @@ The script verifies each official ZIP against its SHA-256 hash and extracts the 
 ## Start in parallel
 
 Each module owner can develop against the three-station fixture immediately. Add the real forecast, rule engine, and planner on separate branches. The integration owner can connect each module as it becomes available.
+
+## Pull requests
+
+When opening a pull request for your module, include both of the following in the description:
+
+- One command a teammate can run from the repository root to reproduce your result.
+- One example of the output that command produces. Use the three-station fixture when it fits your module.
+
+The integration owner uses these to verify the module's output before connecting it to the pipeline.
